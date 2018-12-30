@@ -1,2 +1,2 @@
 # First-Docker-project
-docker project to learn some basics, also use it to deploy on kubernetes
+simple docker project to learn kubernetes and deployment creation
