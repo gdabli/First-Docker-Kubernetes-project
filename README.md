@@ -2,7 +2,7 @@
 simple docker project to learn kubernetes and deployment creation
 
 ### Useful kubectl commands
-`*kubectl get nodes*` get list of all nodes along with master<br /> 
+*`kubectl get nodes`* get list of all nodes along with master<br /> 
 `kubectl get pods` get list of all runnning pods<br /> 
 `kubectl describe pod pod_name` get all details about a pod<br /> 
 `kubectl get deployments` get list of running container<br /> 
