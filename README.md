@@ -10,5 +10,5 @@ get list of all runnning pods
 get all details about a pod
 #### kubectl get deployments: 
 get list of running container
-### kubectl exec -it pod_name bash
+#### kubectl exec -it pod_name bash
 get into the container where pod is running, for troubleshooting purposes
