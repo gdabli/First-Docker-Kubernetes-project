@@ -26,3 +26,7 @@ simple docker project to learn kubernetes and deployment creation
 
 #### Kubernetes cluster on AWS
 ![](images/UI1.png)
+#### Pods and Replica sets
+![](images/UI3.png)
+#### Services
+![](images/UI2.png)
