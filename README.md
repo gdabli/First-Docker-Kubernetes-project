@@ -22,5 +22,4 @@ simple docker project to learn kubernetes and deployment creation
 `kubectl edit deployment_name`- edit the deployment object<br />
 `kubectl rollout status deployment_name`- get the status of rollout<br />
 `kubectl rollout history deployment_name`- get the rollout history<br />
-`kubectl rollout undo deployment/deployment_name`- Rollback to previous version<br />   
-`kubectl rollout undo deployment/deployment_name --to-revision=n`- Rollback to any version<br />
+`kubectl rollout undo deployment/deployment_name`- Rollback to previous version<br />`kubectl rollout undo deployment/deployment_name --to-revision=n`- Rollback to any version<br />
