@@ -1,4 +1,4 @@
-# First-Docker-project
+# First-Kubernetes-project
 simple docker project to learn kubernetes and deployment creation
 
 ### Useful kubectl commands
@@ -25,4 +25,4 @@ simple docker project to learn kubernetes and deployment creation
 `kubectl rollout undo deployment/deployment_name`- Rollback to previous version<br />`kubectl rollout undo deployment/deployment_name --to-revision=n`- Rollback to any version<br />
 
 #### Kubernetes cluster on AWS
-![alt text](https://github.com/gdabli/First-Docker-Kubernetes-project/blob/master/UI1.pngUI1.png)
+!(https://github.com/gdabli/First-Docker-Kubernetes-project/blob/master/UI1.pngUI1.png)
