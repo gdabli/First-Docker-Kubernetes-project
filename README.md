@@ -10,7 +10,7 @@ simple docker project to learn kubernetes and deployment creation
 
 ### Scaling of Pods using Replcation controller
 `kubectl create -f file.yml`- create a replcation controller using yml file<br />
-`kubectl scale --replicas=n -f replicationfile.yml`- scale up pods
+`kubectl scale --replicas=n -f replicationfile.yml`- scale up pods<br />
 `kubectl delete -f file.yml`- create a replication controller<br /> 
 
 ### Deployments in kubernetes
