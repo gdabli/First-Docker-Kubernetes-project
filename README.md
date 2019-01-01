@@ -1,5 +1,5 @@
-# First-Kubernetes-project
-simple docker project to learn kubernetes and deployment creation
+# First-Kubernetes-Project
+Simple project to learn kubernetes and its features.
 
 ### Useful kubectl commands
 `kubectl get nodes`- get list of all nodes along with master<br /> 
