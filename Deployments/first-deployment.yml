@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: first-hello-deployment
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: helloworld
+    spec:
+      containers:
+      - name: k8s-demo-apps
+        image: gdabli90/k8s-demo-apps
+        ports:
+        - name: nodejs-port
+          containerPort: 5000
