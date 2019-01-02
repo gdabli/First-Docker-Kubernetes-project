@@ -23,6 +23,9 @@ Simple project to learn kubernetes and its features.
 `kubectl rollout status deployment_name`- get the status of rollout<br />
 `kubectl rollout history deployment_name`- get the rollout history<br />
 `kubectl rollout undo deployment/deployment_name`- Rollback to previous version<br />`kubectl rollout undo deployment/deployment_name --to-revision=n`- Rollback to any version<br />
-
+### Create admin user for kubernetes cluster to login
+`kubectl create -f sample-user-filename.yml`- command to create sample user admin<br />
+`kubectl -n kube-system get secret | grep admin-user`- get admin user details<br />
+`kubectl -n kube-system describe secret admin-user-token-mjnb2`- get token key for admin user to login into app<br />
 #### Kubernetes cluster on AWS
 ![](images/UI1.png)
