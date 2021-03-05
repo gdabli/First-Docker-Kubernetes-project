@@ -6,7 +6,9 @@ Simple project to learn kubernetes and its features.
 `kubectl describe pod pod_name`- get all details about a pod<br /> 
 `kubectl get deployments`- get list of running container<br /> 
 `kubectl exec -it pod_name bash`- get into the container where pod is running, for troubleshooting purposes<br />
-`kubectl get cm podname-config  -n namespace -o yaml` - get config details for deployment 
+`kubectl get cm podname-config  -n namespace -o yaml` - get config details for deployment
+### config
+`kubectl config get-contexts`- the config file usually contains multiple clusters,users and contexts. this command will give information about which one is currently active. the user and server configuration.<br />
 ### Scaling of Pods using Replcation controller
 `kubectl create -f file.yml`- create a replcation controller using yml file<br />
 `kubectl scale --replicas=n -f replicationfile.yml`- scale up pods<br />
