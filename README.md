@@ -1,5 +1,7 @@
 # First-Kubernetes-Project
 Simple project to learn kubernetes and its features.
+### cluter info
+`kubernetes cluster-info` - provides AWS cluster information 
 ### Useful kubectl commands
 `kubectl get nodes`- get list of all nodes along with master<br /> 
 `kubectl get pods`-get list of all runnning pods<br /> 
